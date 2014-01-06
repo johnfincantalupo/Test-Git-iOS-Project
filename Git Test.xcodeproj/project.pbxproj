@@ -21,6 +21,7 @@
 		8414F937187A287900D3E47B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8414F919187A287900D3E47B /* UIKit.framework */; };
 		8414F93F187A287900D3E47B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8414F93D187A287900D3E47B /* InfoPlist.strings */; };
 		8414F941187A287900D3E47B /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8414F940187A287900D3E47B /* Git_TestTests.m */; };
+		8414F94C187A2C6400D3E47B /* JFITest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8414F94B187A2C6400D3E47B /* JFITest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		8414F93C187A287900D3E47B /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		8414F93E187A287900D3E47B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8414F940187A287900D3E47B /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		8414F94A187A2C6400D3E47B /* JFITest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFITest.h; sourceTree = "<group>"; };
+		8414F94B187A2C6400D3E47B /* JFITest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFITest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		8414F909187A287900D3E47B = {
 			isa = PBXGroup;
 			children = (
+				8414F94A187A2C6400D3E47B /* JFITest.h */,
+				8414F94B187A2C6400D3E47B /* JFITest.m */,
 				8414F91B187A287900D3E47B /* Git Test */,
 				8414F93A187A287900D3E47B /* Git TestTests */,
 				8414F914187A287900D3E47B /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8414F92C187A287900D3E47B /* JFIViewController.m in Sources */,
+				8414F94C187A2C6400D3E47B /* JFITest.m in Sources */,
 				8414F926187A287900D3E47B /* JFIAppDelegate.m in Sources */,
 				8414F922187A287900D3E47B /* main.m in Sources */,
 			);
